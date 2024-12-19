@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gsap | Animate anything</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="">
+    <div id="main" class="w-[100%] h-[100%] bg-lime-300">
+      <div class="cursor-container">
+        <div
+          id="cursor"
+          class="w-3 h-3 rounded-full bg-black fixed cursor z-[99]"
+        ></div>
+        <div
+          id="cursor2"
+          class="w-4 h-4 rounded-full bg-white fixed cursor z-[88]"
+        ></div>
+        <div
+          id="cursor3"
+          class="w-6 h-6 rounded-full bg-black fixed cursor z-[77]"
+        ></div>
+        <div
+          id="cursor4"
+          class="w-8 h-8 rounded-full bg-white fixed cursor z-[66]"
+        ></div>
+        <div
+          id="cursor5"
+          class="w-10 h-10 rounded-full bg-black fixed cursor z-[55]"
+        ></div>
+        <div
+          id="cursor6"
+          class="w-12 h-12 rounded-full bg-white fixed cursor z-[44]"
+        ></div>
+        <div
+          id="cursor7"
+          class="w-14 h-14 rounded-full bg-black fixed cursor z-[33]"
+        ></div>
+      </div>
+      <div>
+        <div class="flex items-center justify-center w-full h-[100vh]">
+          <div id="box" class="w-[700px] h-[400px]">
+            <img
+              class="w-full h-full object-cover invert"
+              src="https://images.unsplash.com/photo-1731429945593-61610daebc11?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="flex items-center justify-center w-full h-[100vh] bg-black">
+          <div id="box2" class="w-[100px] h-[100px] bg-red-300"></div>
+        </div>
+        <div
+          class="flex items-center justify-center w-full h-[100vh] bg-lime-300"
+        >
+          <div id="box3" class="w-[100px] h-[100px] bg-red-300"></div>
+        </div>
+        <div
+          class="flex items-center justify-center w-full h-[100vh] bg-red-300 overflow-hidden"
+        >
+          <h2
+            id="mktx"
+            class="text-[500px] leading-[100%] font-black whitespace-nowrap text-center"
+          >
+            HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO
+          </h2>
+        </div>
+        <div
+          class="flex items-center justify-center w-full h-[100vh] bg-orange-300 overflow-hidden"
+        ></div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
